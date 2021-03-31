@@ -1,0 +1,20 @@
+{
+  "name": "deployments-with-parcel-examples",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
+  "scripts": {
+    "start": "parcel src/index.html --out-dir docs",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./"
+  },
+  "dependencies": {
+    "config": "^3.3.3",
+    "firebase": "^8.3.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
